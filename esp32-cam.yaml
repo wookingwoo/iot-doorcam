@@ -79,7 +79,7 @@ switch:
   #   password: !secret cam_web_pass
 
 esp32_camera_web_server:
-  - port: 81
+  - port: 8080
     mode: stream
-  - port: 82
+  - port: 8081
     mode: snapshot
